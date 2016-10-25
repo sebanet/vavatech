@@ -2,7 +2,7 @@ public class silnia {
 
     public static int silniaIteracyjnie(int liczba) {
         int wynik = 1;
-        for (int i=2; i<=liczba; i++){ //KOMANTARZ
+        for (int i=2; i<=liczba; i++){ //KOMENTARZ
             wynik = i * wynik;
         }
         return wynik;
